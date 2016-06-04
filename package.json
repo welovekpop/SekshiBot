@@ -1,0 +1,31 @@
+{
+  "name": "sekshibot",
+  "version": "0.0.0",
+  "description": "Moderation, fun, and games bot for WE ♥ KPOP",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "munar"
+  ],
+  "author": "Sooyou",
+  "contributors": [
+    "brookiebeast",
+    "Felix Wong <felix@fawong.com>",
+    "Nicholai Goodall <Kranoscorp@gmail.com>",
+    "Renée Kooi <renee@kooi.me>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "munar": "^1.0.0",
+    "munar-plugin-config": "^1.0.0",
+    "munar-plugin-chat-log": "^1.0.0",
+    "munar-plugin-emotes": "^1.0.0",
+    "munar-plugin-greetings": "^1.0.0",
+    "munar-plugin-karma": "^1.0.0",
+    "munar-plugin-triggers": "^1.0.0",
+    "munar-plugin-user-log": "^1.0.0",
+    "munar-plugin-waitlist-raffle": "^1.0.0"
+  }
+}
