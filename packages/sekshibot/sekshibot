@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const munar = require('munar').default
+const sekshibot = require('./')
+
+munar(sekshibot).catch(err =>
+  setImmediate(() => {
+    throw err
+  })
+)
