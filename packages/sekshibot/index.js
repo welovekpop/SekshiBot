@@ -19,6 +19,11 @@ module.exports = {
     ['emotes', { enable: true }],
     ['greetings', { enable: true }],
     ['karma', { enable: true }],
+    ['reddit-feed', {
+      enable: true,
+      subreddits: ['kpop', 'koreanmusic', 'khiphop', 'koreanrock'],
+      output: 'uwave'
+    }],
     ['triggers', { enable: true }],
     ['waitlist-raffle', { enable: true }],
     ['welovekpop-redirect', { enable: true }]

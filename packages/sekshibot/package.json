@@ -27,6 +27,7 @@
     "munar-plugin-emotes": "^1.0.0",
     "munar-plugin-greetings": "^1.0.0",
     "munar-plugin-karma": "^1.0.0",
+    "munar-plugin-reddit-feed": "^1.0.0",
     "munar-plugin-triggers": "^1.0.0",
     "munar-plugin-user-log": "^1.0.0",
     "munar-plugin-waitlist-raffle": "^1.0.0",
