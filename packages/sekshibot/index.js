@@ -25,6 +25,11 @@ module.exports = {
       output: 'uwave'
     }],
     ['triggers', { enable: true }],
+    ['dj-history-skip', {
+      enable: true,
+      limit: 50,
+      lockskipPosition: 1
+    }],
     ['waitlist-raffle', { enable: true }],
     ['welovekpop-redirect', { enable: true }]
   ]

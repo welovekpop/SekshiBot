@@ -24,6 +24,7 @@
     "munar-adapter-slack": "^1.0.0",
     "munar-adapter-uwave": "^1.0.0",
     "munar-plugin-chat-log": "^1.0.0",
+    "munar-plugin-dj-history-skip": "^1.0.0",
     "munar-plugin-emotes": "^1.0.0",
     "munar-plugin-greetings": "^1.0.0",
     "munar-plugin-karma": "^1.0.0",
