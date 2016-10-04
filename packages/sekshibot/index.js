@@ -27,7 +27,7 @@ module.exports = {
     ['triggers', { enable: true }],
     ['dj-history-skip', {
       enable: true,
-      limit: 50,
+      limit: 25,
       lockskipPosition: 1
     }],
     ['waitlist-raffle', { enable: true }],
