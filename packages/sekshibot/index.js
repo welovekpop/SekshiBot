@@ -1,12 +1,20 @@
+const uwOptions = {}
+
+if (process.env.UWAVE_TOKEN) {
+  uwOptions.token = process.env.UWAVE_TOKEN
+} else {
+  uwOptions.email = process.env.UWAVE_EMAIL
+  uwOptions.password = process.env.UWAVE_PASSWORD
+}
+
 module.exports = {
   mongo: 'mongodb://localhost:27017/sekshi',
   adapters: [
     ['slack', { token: process.env.SLACK_TOKEN }],
-    ['uwave', {
+    ['uwave', Object.assign(uwOptions, {
       api: 'https://welovekpop.club/v1',
-      socket: 'wss://welovekpop.club',
-      token: process.env.UWAVE_TOKEN
-    }],
+      socket: 'wss://welovekpop.club'
+    })],
     ['plugdj', {
       email: process.env.PLUGDJ_EMAIL,
       password: process.env.PLUGDJ_PASSWORD,
