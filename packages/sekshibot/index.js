@@ -38,7 +38,10 @@ module.exports = {
       limit: 25,
       lockskipPosition: 1
     }],
-    ['waitlist-raffle', { enable: true }],
+    ['waitlist-raffle', {
+      enable: true,
+      duration: 60
+    }],
     ['welovekpop-redirect', { enable: true }]
   ]
 }
