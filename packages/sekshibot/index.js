@@ -22,6 +22,10 @@ module.exports = {
     }]
   ],
   plugins: [
+    ['serve', {
+      enable: true,
+      baseUrl: 'https://munar.welovekpop.club/'
+    }],
     ['chat-log', { enable: true }],
     ['user-log', { enable: true }],
     ['emotes', { enable: true }],
