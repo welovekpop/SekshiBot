@@ -1,6 +1,6 @@
 {
   "name": "sekshibot",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Moderation, fun, and games bot for WE ♥ KPOP",
   "bin": "sekshibot",
   "main": "index.js",
