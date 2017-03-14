@@ -46,6 +46,7 @@ module.exports = {
       enable: true,
       duration: 60
     }],
+    ['media-blacklist', { enable: true }],
     ['welovekpop-redirect', { enable: true }]
   ]
 }
