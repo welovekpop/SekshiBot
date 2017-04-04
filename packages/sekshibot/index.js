@@ -7,6 +7,8 @@ if (process.env.UWAVE_TOKEN) {
   uwOptions.password = process.env.UWAVE_PASSWORD
 }
 
+const gapiKey = process.env.GAPI_TOKEN
+
 module.exports = {
   mongo: 'mongodb://localhost:27017/sekshi',
   adapters: [
@@ -47,6 +49,11 @@ module.exports = {
       duration: 60
     }],
     ['media-blacklist', { enable: true }],
-    ['welovekpop-redirect', { enable: true }]
+    ['welovekpop-redirect', { enable: true }],
+    ['events-calendar', {
+      enable: true,
+      calendar: '6ajh4areol6aiqg1c08962r0do@group.calendar.google.com',
+      key: gapiKey
+    }]
   ]
 }
