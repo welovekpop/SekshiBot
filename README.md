@@ -2,9 +2,9 @@
 
 Moderation and more bot for [WE ♥ KPOP][üWave].
 
-![SekshiBot](https://i.imgur.com/NzTEsiU.png)
+![SekshiBot](./assets/character.png)
 
-Runs in our [Slack] and [üWave] channels.
+Runs in our [Slack][] and [üWave][] channels.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Runs in our [Slack] and [üWave] channels.
 $ npm install --global sekshibot
 ```
 
-You also need to install the [Munar] CLI if you do not have it already:
+You also need to install the [Munar][] CLI if you do not have it already:
 
 ```shell
 $ npm install --global munar
@@ -26,7 +26,7 @@ $ munar sekshibot
 
 ## License
 
-[ISC]
+[ISC][]
 
 [Munar]: https://munar.space
 [Slack]: https://slack.welovekpop.club
