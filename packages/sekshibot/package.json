@@ -33,6 +33,7 @@
     "munar-plugin-reddit-feed": "^1.0.0",
     "munar-plugin-serve": "^1.0.0",
     "munar-plugin-triggers": "^1.1.0",
+    "munar-plugin-usage": "^1.0.0",
     "munar-plugin-user-log": "^1.0.0",
     "munar-plugin-waitlist-raffle": "^1.1.0",
     "munar-plugin-welovekpop-redirect": "^1.0.0"

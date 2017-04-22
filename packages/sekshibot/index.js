@@ -28,6 +28,7 @@ module.exports = {
       enable: true,
       baseUrl: 'https://munar.welovekpop.club/'
     }],
+    ['usage', { enable: true }],
     ['chat-log', { enable: true }],
     ['user-log', { enable: true }],
     ['emotes', { enable: true }],
