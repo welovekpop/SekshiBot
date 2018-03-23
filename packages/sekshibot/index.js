@@ -53,7 +53,7 @@ module.exports = {
     ['welovekpop-redirect', { enable: true }],
     ['events-calendar', {
       enable: true,
-      calendar: '6ajh4areol6aiqg1c08962r0do@group.calendar.google.com',
+      calendar: 'glb1d8iaqpb234p80fed7q4lk0@group.calendar.google.com',
       key: gapiKey
     }]
   ]
