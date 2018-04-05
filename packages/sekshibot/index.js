@@ -14,8 +14,8 @@ module.exports = {
   adapters: [
     ['slack', { token: process.env.SLACK_TOKEN }],
     ['uwave', Object.assign(uwOptions, {
-      api: 'https://welovekpop.club/v1',
-      socket: 'wss://welovekpop.club'
+      api: 'https://wlk.yt/v1',
+      socket: 'wss://wlk.yt'
     })],
     ['plugdj', {
       email: process.env.PLUGDJ_EMAIL,
