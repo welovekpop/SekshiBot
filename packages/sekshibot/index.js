@@ -36,7 +36,7 @@ module.exports = {
     ['karma', { enable: true }],
     ['reddit-feed', {
       enable: true,
-      subreddits: ['kpop', 'koreanmusic', 'khiphop', 'koreanrock'],
+      subreddits: ['kindie', 'koreanmusic', 'khiphop', 'koreanrock'],
       output: 'uwave'
     }],
     ['triggers', { enable: true }],
