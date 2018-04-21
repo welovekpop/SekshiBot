@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+require('trace')
+require('clarify')
+require('source-map-support')
 const munar = require('munar').default
 const sekshibot = require('./')
 
