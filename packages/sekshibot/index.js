@@ -26,7 +26,7 @@ module.exports = {
   plugins: [
     ['serve', {
       enable: true,
-      baseUrl: 'https://munar.welovekpop.club/'
+      baseUrl: 'https://munar.wlk.yt/'
     }],
     ['usage', { enable: true }],
     ['chat-log', { enable: true }],
