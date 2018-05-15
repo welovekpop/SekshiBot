@@ -19,7 +19,6 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "clarify": "^2.1.0",
     "munar": "^2.0.0",
     "munar-adapter-plugdj": "^2.0.0",
     "munar-adapter-slack": "^2.0.0",
@@ -39,7 +38,6 @@
     "munar-plugin-user-log": "^2.0.0",
     "munar-plugin-waitlist-raffle": "^2.0.0",
     "munar-plugin-welovekpop-redirect": "^1.0.0",
-    "source-map-support": "^0.5.4",
-    "trace": "^3.1.0"
+    "source-map-support": "^0.5.4"
   }
 }
