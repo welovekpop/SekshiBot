@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
-    "babel-preset-munar": "^2.0.2",
+    "babel-preset-munar": "^2.1.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-newer": "^1.2.0",
