@@ -1,7 +1,6 @@
 const gulp = require('gulp')
 const babel = require('gulp-babel')
 const plumber = require('gulp-plumber')
-const watch = require('gulp-watch')
 const newer = require('gulp-newer')
 const through = require('through2')
 const log = require('gulp-util').log
@@ -28,7 +27,7 @@ function logCompiling () {
   })
 }
 
-gulp.task('build', () => {
+function build () {
   return gulp.src(src)
     .pipe(plumber())
     .pipe(rename(/packages\/(.*?)\/src\//, 'packages/$1/lib/'))
@@ -36,12 +35,12 @@ gulp.task('build', () => {
     .pipe(logCompiling())
     .pipe(babel())
     .pipe(gulp.dest(dest))
-})
+}
 
-gulp.task('watch', [ 'build' ], () => {
-  watch(src, () => {
-    gulp.start('build')
-  })
-})
+function watch () {
+  gulp.watch(src, build)
+}
 
-gulp.task('default', [ 'build' ])
+exports.build = build
+exports.default = build
+exports.watch = gulp.series(build, watch)

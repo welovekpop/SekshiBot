@@ -6,14 +6,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.44",
-    "babel-preset-munar": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^8.0.0-beta.2",
+    "@babel/core": "^7.5.4",
+    "babel-preset-munar": "^2.0.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-newer": "^1.2.0",
-    "gulp-plumber": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-util": "^3.0.7",
-    "gulp-watch": "^5.0.0",
-    "through2": "^2.0.1"
+    "through2": "^3.0.1"
   }
 }
