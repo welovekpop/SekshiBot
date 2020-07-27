@@ -26,7 +26,6 @@ module.exports = {
     ['usage', { enable: true }],
     ['user-log', { enable: true }],
     ['emotes', { enable: true }],
-    ['greetings', { enable: false }],
     ['karma', { enable: true }],
     ['reddit-feed', {
       enable: true,
