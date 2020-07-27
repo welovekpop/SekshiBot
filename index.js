@@ -7,16 +7,15 @@ if (process.env.UWAVE_TOKEN) {
   uwOptions.password = process.env.UWAVE_PASSWORD
 }
 
-const gapiKey = process.env.GAPI_TOKEN
-
 module.exports = {
   mongo: 'mongodb://localhost:27017/sekshi',
   adapters: [
     ['slack', { token: process.env.SLACK_TOKEN }],
-    ['uwave', Object.assign(uwOptions, {
-      api: 'https://wlk.yt/v1',
+    ['uwave', {
+      ...uwOptions,
+      api: 'https://wlk.yt/api',
       socket: 'wss://wlk.yt'
-    })]
+    }]
   ],
   plugins: [
     ['serve', {
