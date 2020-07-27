@@ -24,7 +24,6 @@
     "munar-adapter-slack": "^2.0.4",
     "munar-adapter-uwave": "^2.1.2",
     "munar-core": "^2.0.3",
-    "munar-plugin-chat-log": "^2.0.4",
     "munar-plugin-dj-history-skip": "^2.0.4",
     "munar-plugin-emotes": "^2.0.4",
     "munar-plugin-events-calendar": "^2.0.4",

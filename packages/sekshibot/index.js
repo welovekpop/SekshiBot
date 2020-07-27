@@ -29,7 +29,6 @@ module.exports = {
       baseUrl: 'https://munar.wlk.yt/'
     }],
     ['usage', { enable: true }],
-    ['chat-log', { enable: true }],
     ['user-log', { enable: true }],
     ['emotes', { enable: true }],
     ['greetings', { enable: false }],
