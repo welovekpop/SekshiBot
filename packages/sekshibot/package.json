@@ -20,7 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "munar": "^2.0.4",
-    "munar-adapter-plugdj": "^2.1.2",
     "munar-adapter-slack": "^2.0.4",
     "munar-adapter-uwave": "^2.1.2",
     "munar-core": "^2.0.3",

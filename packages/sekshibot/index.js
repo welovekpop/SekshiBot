@@ -16,12 +16,7 @@ module.exports = {
     ['uwave', Object.assign(uwOptions, {
       api: 'https://wlk.yt/v1',
       socket: 'wss://wlk.yt'
-    })],
-    ['plugdj', {
-      email: process.env.PLUGDJ_EMAIL,
-      password: process.env.PLUGDJ_PASSWORD,
-      room: 'loves-kpop'
-    }]
+    })]
   ],
   plugins: [
     ['serve', {
