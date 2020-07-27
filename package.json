@@ -25,7 +25,6 @@
     "munar-core": "^2.0.3",
     "munar-plugin-dj-history-skip": "^2.0.4",
     "munar-plugin-emotes": "^2.0.4",
-    "munar-plugin-events-calendar": "^2.0.4",
     "munar-plugin-greetings": "^2.0.4",
     "munar-plugin-karma": "^2.0.4",
     "munar-plugin-media-blacklist": "^1.1.0",

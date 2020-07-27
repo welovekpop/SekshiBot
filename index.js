@@ -43,11 +43,6 @@ module.exports = {
       enable: true,
       duration: 60
     }],
-    ['media-blacklist', { enable: true }],
-    ['events-calendar', {
-      enable: true,
-      calendar: 'glb1d8iaqpb234p80fed7q4lk0@group.calendar.google.com',
-      key: gapiKey
-    }]
+    ['media-blacklist', { enable: true }]
   ]
 }
