@@ -49,10 +49,6 @@ module.exports = {
       duration: 60
     }],
     ['media-blacklist', { enable: true }],
-    ['welovekpop-redirect', {
-      enable: true,
-      redirectMessage: 'Welcome @$user! We have moved to a different platform. Come join us at https://wlk.yt/! :heart:'
-    }],
     ['events-calendar', {
       enable: true,
       calendar: 'glb1d8iaqpb234p80fed7q4lk0@group.calendar.google.com',

@@ -36,7 +36,6 @@
     "munar-plugin-usage": "^1.0.0",
     "munar-plugin-user-log": "^2.0.4",
     "munar-plugin-waitlist-raffle": "^2.0.4",
-    "munar-plugin-welovekpop-redirect": "^1.0.0",
     "source-map-support": "^0.5.12"
   }
 }
